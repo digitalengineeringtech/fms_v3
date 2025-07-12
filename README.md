@@ -46,15 +46,6 @@ fms_v3/
 - MQTT client for remote management
 - mDNS for device discovery
 
-## Logging
-
-Multiple log levels available:
-- ERROR
-- WARNING
-- INFO
-- DEBUG
-- VERBOSE
-- TASK
 
 ## Contributing
 
@@ -66,4 +57,4 @@ Multiple log levels available:
 
 ## License
 
-Copyright © 2025 Thailand. All rights reserved.
+Copyright © 2025 . All rights reserved.
