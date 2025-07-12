@@ -34,11 +34,11 @@ void setup() {
   fms_cli.register_command("mqtt_config"   ,"Configure Mqtt settings",     handle_mqtt_command,2,2);
   fms_cli.register_command("noz_config", "Configure Nozzle settings",   handle_nozzle_command, 16, 16);
 #endif
- 
+  /* fms_uart2_serial.onReceive(fm_rx_irq_interrupt)*/
   fms_run_sd_test();                        // demo test fix this load configure data from sd card
   fmsEnableSerialLogging(true);             // show serial logging data on Serial Monitor
   fms_boot_count(true);                     // boot count
-  fms_load_config();                        // load config from nvs storage
+  fms_load_config();                        // load config from nvs storage (preference storage)
  
 
 /* task create */
